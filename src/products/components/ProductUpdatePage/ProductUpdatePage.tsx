@@ -294,6 +294,7 @@ export const ProductUpdatePage: React.FC<ProductUpdatePageProps> = ({
                   {attributes.length > 0 && (
                     <ProductAttributes
                       attributes={attributes}
+                      errors={errors}
                       disabled={disabled}
                       onChange={handleAttributeChange}
                       onMultiChange={handleAttributeMultiChange}
